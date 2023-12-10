@@ -1,0 +1,31 @@
+@import url(../../styles/_viariables.scss);
+
+
+
+.container{
+    width: 350;
+    height: 70vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.offlineTitle{
+    color: var(--main-Color);
+    
+}
+
+.offlineText{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.offlineSvg{
+    margin-bottom: 1.5rem;
+    fill: var(--main-Color);
+}

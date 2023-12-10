@@ -1,0 +1,41 @@
+@import url(../../styles/_viariables.scss);
+
+
+
+.NavLink{
+    list-style: none;
+    text-decoration: none;
+    color: var(--main-Color);
+
+}
+
+.EmailPassButton{
+    display: flex;
+    align-items: center;
+    flex-direction: row ;
+    justify-content: space-around;
+     background-color:transparent;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 14rem;
+    margin-top: 0.3rem;
+    cursor: pointer;
+    border: solid 2.5px var(--main-Color);
+
+}
+
+.marginRight{
+    border-right: solid 2.5px var(--main-Color);
+    width: 120px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cont{
+font-size: 15px;
+font-weight:700;
+
+}

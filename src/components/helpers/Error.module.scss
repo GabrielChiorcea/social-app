@@ -1,0 +1,32 @@
+@import url(../../styles/_viariables.scss);
+
+.center{
+    position: relative;
+    border: 3px solid var(--main-Color);
+    border-radius:20px ;
+    box-shadow: inset 0px 0px 30px 20px rgba(0, 0, 0, 0.121);
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    width: 300px;
+    
+}
+
+
+.errorMessaje{
+    color: var(--main-Color);
+    font-weight: 900;
+}
+
+
+
+.cogs{
+    position: absolute;
+    height: 6rem;
+    width: 6rem;
+    margin-top: -6rem;
+    margin-left: -2rem;
+    z-index: -1;
+    fill: rgba(128, 128, 128, 0.261);
+
+}
